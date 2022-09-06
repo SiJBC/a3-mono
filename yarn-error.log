@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/simoncolman/.nvm/versions/node/v18.7.0/bin/node /Users/simoncolman/.nvm/versions/node/v18.7.0/bin/yarn workspace server add express
+
+PATH: 
+  /Users/simoncolman/.nvm/versions/node/v18.7.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/simoncolman/.nvm/versions/node/v18.7.0/bin:/Users/simoncolman/.cargo/bin:/Users/simoncolman/Desktop/flutter/bin:/Users/simoncolman/Desktop/flutter/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.7.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/simoncolman/Desktop/cosc360/a3/a3mono/package.json: Unexpected token , in JSON at position 116
+      at JSON.parse (<anonymous>)
+      at /Users/simoncolman/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/simoncolman/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/simoncolman/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "a3mono",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "workspaces": {
+      "server",
+      "client"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
